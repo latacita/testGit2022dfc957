@@ -24,11 +24,15 @@
 (22)	 add bitacora.txt
 (23)	 commit -m "Paso 23"
 (24)	 checkout master
-(25)						La fusión sería recursiva.
+(25)						 La fusión sería recursiva.
 (26)	 add+commit
 (27)	 tag RespuestaPreguntaFusion
-(28)	 push origin master		Da un fallo por fuera de sincronía.
+(28)	 push origin master		 Da un fallo por fuera de sincronía.
 	 pull
 	 push origin master
 	 push origin RespuestaPreguntaFusion
+(30)	 add+commit
+(31)	 merge Historia001		 Es fusión recursiva que genera
+	 add bitacora.txt			 conflictos en bitacora.txt
+	 commit
 
