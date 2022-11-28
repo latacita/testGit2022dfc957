@@ -10,3 +10,9 @@
 (23)	 commit -m "Paso 23"
 (24)	 checkout master
 (25)						La fusión sería recursiva.
+(26)	 add+commit
+(27)	 tag RespuestaPreguntaFusion
+(28)	 push origin master		Da un fallo por fuera de sincronía.
+	 pull
+	 push origin master
+	 push origin RespuestaPreguntaFusion
