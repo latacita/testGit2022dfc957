@@ -1,11 +1,26 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):   Fernández Crespo, Diego            %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)	 branch Historia000
+(04)	 branch Historia001
+(05)	 checkout Historia000
+(07)	 add bitacora.txt
+(08)	 commit -m "Paso 08"
+(09)	 checkout Historia001
+(11.a) stash
+(11.b) checkout Historia000
+(13)	 add bitacora.txt
+(14)	 commit -m "Paso 14"
+(15)	 checkout Historia001
+(16)	 stash apply
+(19)	 commit -m "Paso 19"
+(20)	 merge Historia000		 Es fusión recursiva que genera 
+						 conflictos en bitacora.txt.
 (22)	 add bitacora.txt
 (23)	 commit -m "Paso 23"
 (24)	 checkout master
@@ -16,3 +31,4 @@
 	 pull
 	 push origin master
 	 push origin RespuestaPreguntaFusion
+
